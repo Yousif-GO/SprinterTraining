@@ -3,89 +3,299 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>تدريب على المكالمات وتحميل الشحنات لسائقي فان سبرينتر</title>
+    <title>Sprinter Van Dispatcher Training - تدريب المرسل</title>
     <style>
         body {
             font-family: Tahoma, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
             direction: rtl;
             padding: 20px;
         }
 
         h1,
         h2 {
-            color: #004080;
+            color: #003366;
         }
 
-        .section {
+        .card {
             background: #ffffff;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
             border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 20px;
         }
 
-        .example {
-            background-color: #e9f5ff;
+        .term {
+            color: #007acc;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .english {
+            direction: ltr;
+            background-color: #eef6ff;
             padding: 10px;
+            border-right: 4px solid #007acc;
+        }
+
+        .arabic {
             margin-top: 10px;
-            border-right: 5px solid #007acc;
+            font-weight: bold;
+            color: #444;
+        }
+
+        audio {
+            margin-top: 10px;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>تدريب على مهام المرسل لفان سبرينتر</h1>
+    <h1>Sprinter Van Dispatcher Training<br>تدريب لفان سبرينتر</h1>
 
-    <div class="section">
-        <h2>1. المكالمات الهاتفية مع السائق</h2>
-        <p>عند التحدث مع السائق، يجب أن تكون مهذبًا وواضحًا:</p>
-        <div class="example">
-            <strong>مثال:</strong><br>
-            "مرحبًا أحمد، لديك شحنة جاهزة للتحميل من دالاس، تكساس إلى هيوستن. هل أنت جاهز للتحميل؟"
+    <!-- Term 1: Load -->
+    <div class="card">
+        <div class="term">📦 Term: Load - الشحنة</div>
+        <div class="english">
+            Dispatcher would say: "I have a load from Dallas, TX to Houston, TX."
         </div>
-    </div>
-
-    <div class="section">
-        <h2>2. التواصل مع الوسطاء (Broakers)</h2>
-        <p>عند التفاوض مع الوسطاء، تأكد من فهم تفاصيل الحمولة والسعر:</p>
-        <div class="example">
-            <strong>مثال:</strong><br>
-            "مرحبًا، هل الحمولة جاهزة؟ ما الوزن والمسافة؟ هل السعر 400 دولار قابل للتفاوض؟"
+        <audio controls>
+            <source src="audio/load.mp3" type="audio/mpeg">
+            المتصفح لا يدعم تشغيل الصوت.
+        </audio>
+        <div class="arabic">
+            الترجمة: لدي شحنة من دالاس، تكساس إلى هيوستن، تكساس.
         </div>
+
     </div>
 
-    <div class="section">
-        <h2>3. معلومات عن الحمولة</h2>
-        <p>اسأل دائمًا عن:</p>
-        <ul>
-            <li>الوزن</li>
-            <li>المسافة</li>
-            <li>نوع الحمولة</li>
-            <li>هل يوجد تحميل يدوي؟</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>4. التحميل والتفريغ</h2>
-        <p>تأكد من العناوين وأوقات التحميل والتفريغ. تحقق مما إذا كانت هناك حاجة إلى معدات خاصة.</p>
-        <div class="example">
-            <strong>مثال:</strong><br>
-            "تحميل من: 123 شارع الصناعة، دالاس، الساعة 10 صباحًا. تفريغ في هيوستن الساعة 4 مساءً."
+    <!-- Term 2: Empty Miles -->
+    <div class="card">
+        <div class="term">🛣️ Term: Empty Miles - الأميال الفارغة</div>
+        <div class="english">
+            Dispatcher would say: "You have 50 empty miles before pickup."
         </div>
+        <div class="arabic">
+            الترجمة: لديك 50 ميلاً فارغاً قبل التحميل.
+        </div>
+        <audio controls>
+            <source src="audio/empty_miles.mp3" type="audio/mpeg">
+            المتصفح لا يدعم تشغيل الصوت.
+        </audio>
     </div>
 
-    <div class="section">
-        <h2>5. استخدام لوحات التحميل (Load Boards)</h2>
-        <p>منصات مشهورة:</p>
-        <ul>
-            <li>DAT</li>
-            <li>Truckstop</li>
-            <li>123Loadboard</li>
-        </ul>
-        <p>استخدم هذه المنصات للعثور على شحنات مناسبة.</p>
+    <!-- Term 3: Loaded Miles -->
+    <div class="card">
+        <div class="term">🚚 Term: Loaded Miles - أميال التحميل</div>
+        <div class="english">
+            Dispatcher would say: "The loaded miles are 450 miles."
+        </div>
+        <div class="arabic">
+            الترجمة: أميال التحميل 450 ميلاً.
+        </div>
+        <audio controls>
+            <source src="audio/loaded_miles.mp3" type="audio/mpeg">
+            المتصفح لا يدعم تشغيل الصوت.
+        </audio>
     </div>
+
+    <!-- Term 4: Weight -->
+    <div class="card">
+        <div class="term">⚖️ Term: Weight - الوزن</div>
+        <div class="english">
+            Dispatcher would say: "The weight of the load is 2,000 lbs."
+        </div>
+        <div class="arabic">
+            الترجمة: وزن الشحنة 2000 رطل.
+        </div>
+        <audio controls>
+            <source src="audio/weight.mp3" type="audio/mpeg">
+            المتصفح لا يدعم تشغيل الصوت.
+        </audio>
+    </div>
+
+    <!-- Term 5: Broker -->
+    <div class="card">
+        <div class="term">📞 Term: Broker - الوسيط</div>
+        <div class="english">
+            Dispatcher would say: "I'm confirming the load with the broker now."
+        </div>
+        <div class="arabic">
+            الترجمة: أنا أؤكد الشحنة مع الوسيط الآن.
+        </div>
+        <audio controls>
+            <source src="audio/broker.mp3" type="audio/mpeg">
+            المتصفح لا يدعم تشغيل الصوت.
+        </audio>
+    </div>
+    <!-- Term 6: Driver Reply - Accepting a Load -->
+    <div class="card">
+        <div class="term">🗣️ Term: Driver Reply - رد السائق (قبول الشحنة)</div>
+        <div class="english">
+            Driver would say: "I can take this load for 1 dollar per mile."
+        </div>
+        <div class="arabic">
+            الترجمة: يمكنني أخذ هذه الشحنة مقابل دولار واحد لكل ميل.
+        </div>
+        <audio controls>
+            <source src="audio/driver_accept_1dollar.mp3" type="audio/mpeg">
+            المتصفح لا يدعم تشغيل الصوت.
+        </audio>
+    </div>
+
+    <!-- Term 7: Driver Question - What is the pickup time? -->
+    <div class="card">
+        <div class="term">🕒 Term: Pickup Time Question - سؤال عن وقت التحميل</div>
+        <div class="english">
+            Driver would say: "What time is the pickup?"
+        </div>
+        <div class="arabic">
+            الترجمة: في أي وقت سيكون التحميل؟
+        </div>
+        <audio controls>
+            <source src="audio/driver_pickup_time.mp3" type="audio/mpeg">
+            المتصفح لا يدعم تشغيل الصوت.
+        </audio>
+    </div>
+
+    <!-- Term 8: Driver Question - Is it a dock or hand load? -->
+    <div class="card">
+        <div class="term">👐 Term: Load Type Question - سؤال عن نوع التحميل</div>
+        <div class="english">
+            Driver would say: "Is this a dock load or hand load?"
+        </div>
+        <div class="arabic">
+            الترجمة: هل هذا التحميل من الرصيف أم تحميل يدوي؟
+        </div>
+        <audio controls>
+            <source src="audio/driver_dock_or_handload.mp3" type="audio/mpeg">
+            المتصفح لا يدعم تشغيل الصوت.
+        </audio>
+    </div>
+
+    <!-- Term 9: Driver Question - How much does it weigh? -->
+    <div class="card">
+        <div class="term">⚖️ Term: Weight Question - سؤال عن الوزن</div>
+        <div class="english">
+            Driver would say: "How much does the load weigh?"
+        </div>
+        <div class="arabic">
+            الترجمة: كم وزن الشحنة؟
+        </div>
+        <audio controls>
+            <source src="audio/driver_ask_weight.mp3" type="audio/mpeg">
+            المتصفح لا يدعم تشغيل الصوت.
+        </audio>
+    </div>
+
+    <!-- Term 10: Driver Reply - I’m 30 miles away -->
+    <div class="card">
+        <div class="term">📍 Term: Driver Location - موقع السائق</div>
+        <div class="english">
+            Driver would say: "I’m 30 miles away from the pickup location."
+        </div>
+        <div class="arabic">
+            الترجمة: أنا على بُعد 30 ميلاً من موقع التحميل.
+        </div>
+        <audio controls>
+            <source src="audio/driver_location.mp3" type="audio/mpeg">
+            المتصفح لا يدعم تشغيل الصوت.
+        </audio>
+    </div>
+
+    <h2>📘 Dispatcher Glossary - المصطلحات الشائعة للمرسل</h2>
+    <table style="width:100%; border-collapse: collapse; background-color: #fff; margin-bottom: 30px;">
+        <thead style="background-color: #007acc; color: white;">
+            <tr>
+                <th style="padding: 10px; border: 1px solid #ccc;">English Term</th>
+                <th style="padding: 10px; border: 1px solid #ccc;">Arabic Translation</th>
+                <th style="padding: 10px; border: 1px solid #ccc;">Audio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Load</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">شحنة</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">
+                    <audio controls>
+                        <source src="audio/load1.mp3" type="audio/mpeg">
+                        متصفحك لا يدعم تشغيل الصوت.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Weight</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">الوزن</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">
+                    <audio controls>
+                        <source src="audio/weight1.mp3" type="audio/mpeg">
+                        متصفحك لا يدعم تشغيل الصوت.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Miles</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">أميال</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">
+                    <audio controls>
+                        <source src="audio/miles.mp3" type="audio/mpeg">
+                        متصفحك لا يدعم تشغيل الصوت.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Pickup</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">تحميل</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">
+                    <audio controls>
+                        <source src="audio/pickup.mp3" type="audio/mpeg">
+                        متصفحك لا يدعم تشغيل الصوت.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Delivery</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">تفريغ</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">
+                    <audio controls>
+                        <source src="audio/delivery.mp3" type="audio/mpeg">
+                        متصفحك لا يدعم تشغيل الصوت.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Broker</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">وسيط</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">
+                    <audio controls>
+                        <source src="audio/broker1.mp3" type="audio/mpeg">
+                        متصفحك لا يدعم تشغيل الصوت.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Rate</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">السعر</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">
+                    <audio controls>
+                        <source src="audio/rate.mp3" type="audio/mpeg">
+                        متصفحك لا يدعم تشغيل الصوت.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Detention</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">تأخير في التحميل أو التفريغ</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">
+                    <audio controls>
+                        <source src="audio/detention.mp3" type="audio/mpeg">
+                        متصفحك لا يدعم تشغيل الصوت.
+                    </audio>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 
